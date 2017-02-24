@@ -1,0 +1,52 @@
+Explain in detail:
+* HDFS
+* Hadoop cluster
+* HDFS Blocks
+
+
+  *HDFS:
+        -It stands for Hadoop Distributed File System.
+
+        -HDFs is the primary storage system used by Hadoop applications.
+
+        -HDFs is a distributed file system that provides high-performance access to data across hadoop clusters.
+
+        -HDFS is one of the important tool of hadoop.
+
+        -HDFS runs on commodity hardware.Eg:Suppose a user wants to store a file of 1 terabytes, 
+            the file is divided into smaller units and stored on different machines.
+              
+        -Thus it is more reliable to failures.Because if one hardware fails the data can be retrieved because it is of small amount.
+
+        -HDFS take the data breaks them into pieces and distributes them to different nodes in a cluster and thus allows parallel processing.
+
+
+  *Hadoop cluster:
+        -It is a type of computational cluster designed for storing and analyzing unstructured data in distributed environment.
+ 
+        -Cluster is a set of connected computers that work together as a single system.
+
+        -The computer cluster used for hadoop is called as hadoop cluster.
+
+        -The hadoop cluster run on low cost commodity computers.
+
+        -Namenode and datanode are used to check the status of clusters.
+
+        -The cluster is made up of racks and each rack contains namenode,job tracker,secondary namenode etc.
+        
+        -Hadoop cluster speed up the processing of data analysis.
+
+ 
+  *HDFS Blocks:
+        -Hadoop Distributed File System stores the data in terms of blocks.
+
+        -The block size is very large.The default size of the HDFS block is 64MB.
+
+        -When the user stores or uses a file,the file is splitted into 64MB blocks and they are stored in the hadoop filesystem.
+
+        -The HDFS blocks are of fixed size so the user can easily calculate the number of blocks.
+
+        -The HDFS blocks are fault tolerant and they are highly available.
+
+        -The hadoop has different nodes and if a node or a block fails the same block can be read from another node.
+
